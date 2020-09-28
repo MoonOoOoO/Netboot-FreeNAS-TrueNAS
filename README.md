@@ -81,11 +81,11 @@ Confirmation of NFS
 showmount -e
 ```
 ![Mountpoint]
-(/image/nfs_mount.png)
+(nfs_mount.png)
 # PXE Boot
 Netboot another machine from the same network, loading screenshot
 ![pxeboot]
-(/image/pxe_load.png)
+(pxe_load.png)
 Downloading FreeNAS kernel files to excute the installation
 ![kernel]
-(/image/kernel_load.png)
+(/kernel_load.png)
