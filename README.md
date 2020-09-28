@@ -1,4 +1,4 @@
-# PXEboot FreeNAS
+# PXE Boot FreeNAS
 A step by step guide for building your own PXE boot infrastructure which can be used to boot FreeNAS.
 A FreeBSD with DHCP+TFTP+NFS is configured as the PXE boot server.
 
