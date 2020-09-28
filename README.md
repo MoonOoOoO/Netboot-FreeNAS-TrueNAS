@@ -25,9 +25,7 @@ Change permission of the directory
 ```
 chmod 775 /freenas
 ```
-# DHCP and TFTP
-Enable DHCP to listen on IP 10.0.0.1, and setup the root directory of TFTP to `/freenas`
-## DHCP Service
+# DHCP
 Install and config DHCP server
 ```
 pkg install -y dhcpd
@@ -44,7 +42,7 @@ subnet 10.0.0.0 netmask 255.255.255.0 {
 }
 ```
 DHCP server's IP is 10.0.0.1, the addresses 10.0.0.10 to 10.0.0.200 can be allocated. The allocated IP will expire after 7200 seconds. Also, the pxe boot file is defined in this configuration. By default, the compter boots and obtains `/boot/pxeboot/`.
-## TFTP Service
+# TFTP
 Install and config TFTP server
 ```
 pkg install -y tftp-hpa
