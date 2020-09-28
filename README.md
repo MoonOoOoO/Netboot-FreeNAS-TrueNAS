@@ -23,7 +23,7 @@ tar -vxf FreeNASUI-11.3-U4.1-25f4b91af6102a144a45003f37de92e0.tgz -C /freenas
 ```
 Change permission of the directory
 ```
-chmod 775 /freenas
+chmod -R 775 /freenas
 ```
 # DHCP
 Install and config DHCP server
