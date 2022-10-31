@@ -41,7 +41,7 @@ subnet 10.0.0.0 netmask 255.255.255.0 {
   filename "/boot/pxeboot";
 }
 ```
-DHCP server's IP is 10.0.0.1, the addresses 10.0.0.10 to 10.0.0.200 can be allocated. The allocated IP will expire after 7200 seconds. Also, the pxe boot file is defined in this configuration. By default, the compter boots and obtains `/boot/pxeboot/`.
+DHCP server's IP is 10.0.0.1, the addresses 10.0.0.10 to 10.0.0.200 can be allocated. The allocated IP will expire after 7200 seconds. Also, the pxe boot file is defined in this configuration. By default, the computer boots and obtains `/boot/pxeboot/`.
 # TFTP
 Install and config TFTP server
 ```
